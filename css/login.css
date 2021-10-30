@@ -1,0 +1,130 @@
+body{
+    background-color: #161E54;
+    height: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.c2{
+    margin: auto;
+    width: 100%;
+    height: 100%;
+    margin-top: 5%;
+}
+
+
+    .contene{
+    
+        background: white;
+        border-radius: 10px;
+    
+        box-shadow: 0 0 20px rgba(0,0,0,0.5);
+        font-size: 40px;
+        margin: auto;
+        padding: 30px;
+        width: 450px;
+        display: grid;
+        place-items: center;
+        padding-bottom: 0px;
+    }
+    h1{
+    
+        text-shadow: 2px 2px 2px #FF5151;
+        font-size: 50px;
+        
+    
+    }
+
+img{
+    margin-top: 0px;
+    width: 40%;
+}
+
+    span{
+        color: #40e1ef;
+       
+    }
+
+    form{
+        display: grid;
+        place-items: center;
+        
+        padding: 0;
+        width: 100%;
+    }
+    
+    .boton{
+        color: whitesmoke;
+        width: 200px;
+        height: 50px;
+        background-color: #161E54;
+        margin:  auto;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .boton:hover{
+        transform: scale(1.1, 1.1);
+    }
+    i:hover{
+        transform: scale(1.05, 1.05);
+    }
+    p:hover{
+        transform: scale(1.05, 1.05);
+    }
+
+
+    p{
+        margin: 5px;
+        margin-bottom: 20px;
+        font-size: 50px;
+    }
+
+    input{
+
+        border: solid 1px #161E54;
+        border-radius: 3px;
+        width: 80%;
+        height: 30px;
+        padding: 0 0;
+        
+       
+        
+        
+        
+    }
+
+    .diveye{
+        width: 100%;
+        margin-left: 88px;
+    }
+
+
+.show-password{
+    color: #88E0EF;
+    
+    font-size: 60%;
+}
+
+
+
+#usuarioError {
+    display: none;
+    font-size: 0.8em;
+  }
+  
+  #usuarioError.visible {
+    display: block;
+  }
+  
+  input.invalido {
+    border-color: red;
+  }
+
+  .warnings{
+     
+      font-size: 14px;
+      display: block;
+      
+      color: #FF5151;
+     
+  }
