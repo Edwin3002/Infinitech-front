@@ -46,6 +46,8 @@ form.addEventListener("submit", e=>{
         parrafo.innerHTML = warnings
     }else{
         parrafo.innerHTML = "Enviado"
+        alert('Bienvenido')
+        window.location.href = "http://127.0.0.1:5500/ciclo%204/proyecto/html/inicio.html";
     }
 })
 
