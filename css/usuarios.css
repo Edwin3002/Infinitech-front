@@ -35,7 +35,7 @@ nav li{
     line-height: 80px;
 }
 
-a{
+li a{
     color: white;  
     font-size: 15px;
     padding: 10px 5px;
@@ -44,7 +44,7 @@ a{
     text-transform: uppercase;
 }
 
-a:hover, a.active{
+li a:hover, a.active{
     border: 1px solid whitesmoke;
 }
 
@@ -103,7 +103,7 @@ nav li{
     margin-bottom: 5px;
 }
 
-a{
+li a{
     color:whitesmoke;  
     font-size: 15px;
     padding: 10px 15px;
@@ -113,13 +113,13 @@ a{
     text-transform: uppercase;
 }
 
-a.active{
+ li a.active{
     color: #40e1ef;
     border: 1px solid transparent;
     border-bottom: 1px solid #FF5151;
 }
 
-a:hover{
+li a:hover{
     color: #40e1ef;
     border: 1px solid transparent;
     
@@ -135,107 +135,101 @@ nav ul.show{
 
 /*          -----------------------      cuerpo                    --------------------------------                    */
 
-.extra{
+.cs{
+    background-color: rgb(255, 255, 255);
+    width: 90%;
     margin: auto;
-    border: solid 1px white;
+    margin-top: 10px;
+    
+}
+
+.ti{
+    margin-left: 20px;
+    display: inline;
+    padding: 5px;
+}
+ 
+
+.navtable{
+    background-color: #FF5151;
+    color: #fff;
+    margin: auto;
+    padding: 10px;
+    padding-bottom: 20px;
+    
+}
+
+
+
+.navtable a {
+    float: right;
+    margin-right: 20px;
     border-radius: 5px;
-    width: 80%;
-    padding: 15px;
-    margin-top: 20px;
+}
+
+.a1{
+    color: white;
+    background-color: rgb(25, 138, 14);
+    padding: 5px;
+}
+
+.a1:hover{
+    background-color: rgb(37, 191, 23);
+}
+
+.a2{
+    color: white;
+    background-color: #1e43af;
+    padding: 5px;
+
+}
+
+.a2:hover{
+    background-color: #4372ff;
+}
+
+.clientes{
+    margin: auto;
+    width: 100%;
+    border-collapse: collapse;
+    padding: 10px;    
+    
+}
+
+th{
+    padding: 10px;
+    background-color: palegreen;
+}
+
+tr:nth-child(even){
+    background-color: #e4e4e4;
+    margin: auto;
+
+}
+
+td{
+    text-align: center;
+    padding: 8px;
+}
+
+.tda{
     display: flex;
     flex-wrap: wrap;
 }
 
-
-.extra div {
-    display: inline-block;
-    /*border: solid 1px ;*/
-    min-width: 230px;
-    width: 23%;
-    height: 250px;
+td a{
     margin: auto;
 }
-
-.celu2{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.caracter2{
-    background-color: rgb(221, 220, 220);
-    border-collapse: collapse;
-    width: 100%;
-    height: 100%;
-}
-
-.caracter2 th{
-    background-color: #FF5151;
-    border-bottom: solid 2px black;
-    color: whitesmoke;
-}
-
-.caracter2 th, td{
-    padding: 5px;
-    width: 50%; 
+td a i{
+    color: #161E54;  
+    font-size: 15px;
+    border-radius: 0;
+    border: 1px solid transparent;
 }
 
 
-.caracter2 tr:nth-child(even){
-    background-color: white;
-}
-
-.d3{
-    overflow: auto;
-}
-
-p{
-    text-align: justify;
-    padding: 10px;
-}
-
-h3{
-    text-align: center;
-    padding: 10px;
-}
-
-button{
-    background-color: #FF9B6A;
-    border: none;
-    border-radius: 5px;
-    padding: 10px;
+td a i:hover{
+    color: #ec8e5f;
+    border: 1px solid transparent;
     
 }
-
-button:hover{
-    transform: scale(1.1, 1.1);
-    background-color: #ec8e5f;
-}
-
-.bt{
-    margin: auto;
-    margin-top: 100px;
-    margin-left: 100px;
-    z-index: 10;
-}
-
-.b{
-    color: wheat;
-}
-
-@media (max-width: 1399px){
-
-    .extra div {
-        width: 30%;
-        
-    }
-
-    .bt{
-        margin-left: 50px;
-        z-index: 10;
-        
-}
-}
-
-
